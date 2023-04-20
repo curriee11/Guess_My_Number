@@ -41,7 +41,7 @@ document.querySelector('.check').addEventListener('click',function(){
         document.querySelector('.message').textContent='🎉CorrectNumber';
         if(score>highscore){
             highscore=score;
-            document.querySelector('.highscore').value=highscore;
+            document.querySelector('.highscore').textContent=highscore;
         }
     }
     //guess too high
